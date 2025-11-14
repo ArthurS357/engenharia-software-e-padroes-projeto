@@ -1,8 +1,8 @@
 # Engenharia de Software e Padrões de Projeto (5º Semestre)
 
-Este repositório contém uma coleção de projetos desenvolvidos durante o 5º semestre da faculdade. Embora a disciplina fosse de "Business Intelligence", o foco prático foi em conceitos avançados de **Engenharia de Software** para a construção de sistemas robustos.
+Este repositório contém uma coleção de projetos desenvolvidos durante o 5º semestre da faculdade, na disciplina de **Padrões de Projeto**. O foco foi aplicar conceitos centrais de Engenharia de Software e Padrões de Projeto (Design Patterns) para construir sistemas robustos e escaláveis.
 
-Aqui você encontrará exemplos práticos dos principais Padrões de Projeto (Design Patterns) em Java e uma API RESTful completa desenvolvida com Node.js e TypeScript.
+Aqui você encontrará exemplos práticos dos principais padrões em Java e uma API RESTful completa desenvolvida com Node.js e TypeScript.
 
 ## 🛠️ Tecnologias Principais
 
