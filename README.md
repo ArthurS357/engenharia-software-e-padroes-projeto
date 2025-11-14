@@ -1,8 +1,8 @@
-# Engenharia de Software e Padrões de Projeto (BI - 5º Semestre)
+# Engenharia de Software e Padrões de Projeto (5º Semestre)
 
-Este repositório contém uma coleção de projetos desenvolvidos durante o 5º semestre da faculdade, na disciplina de Business Intelligence. O foco principal foi aplicar conceitos centrais de Engenharia de Software e Padrões de Projeto (Design Patterns) para construir sistemas robustos e escaláveis.
+Este repositório contém uma coleção de projetos desenvolvidos durante o 5º semestre da faculdade. Embora a disciplina fosse de "Business Intelligence", o foco prático foi em conceitos avançados de **Engenharia de Software** para a construção de sistemas robustos.
 
-Aqui você encontrará exemplos práticos de padrões em Java e a construção de uma API RESTful completa com Node.js e TypeScript.
+Aqui você encontrará exemplos práticos dos principais Padrões de Projeto (Design Patterns) em Java e uma API RESTful completa desenvolvida com Node.js e TypeScript.
 
 ## 🛠️ Tecnologias Principais
 
@@ -19,15 +19,15 @@ Aqui você encontrará exemplos práticos de padrões em Java e a construção d
 
 Uma coleção de projetos Java, cada um focado em um padrão de projeto específico:
 
-* **Padrão Strategy** (`/Padrao-Strategy`): Demonstração do padrão Strategy através de um aplicativo de navegação. O sistema pode alterar dinamicamente o método de cálculo de rota (ex: `RotaCarro`, `RotaOnibus`, `RotaAPe`).
-* **Padrão Factory** (`/Padrao-Factory`): Demonstração do padrão Factory para criar objetos de transporte. O sistema decide se deve instanciar um `Caminhao` ou `Aviao` com base na necessidade.
-* **Padrão Prototype** (`/Padrao-Prototype`): Exemplo do padrão Prototype para clonar objetos de "Funcionários", permitindo a criação de novos objetos com base em um modelo existente.
-* **Sistema de Logística** (`/Sistema-Logistica-Completo`): Um projeto mais complexo que combina múltiplos padrões, incluindo **Factory, Abstract Factory e Strategy**, para gerenciar um sistema de logística flexível.
+* **Padrão Strategy** (`/AppNavegacaoStrategy`): Demonstração do padrão Strategy através de um aplicativo de navegação. O sistema pode alterar dinamicamente o método de cálculo de rota (ex: `RotaCarro`, `RotaOnibus`, `RotaAPe`) sem alterar o contexto do navegador.
+* **Padrão Factory** (`/Logistica`): Demonstração do padrão Factory para criar objetos de transporte. A fábrica (`LogisticaFactory`) decide se deve instanciar um `Caminhao` ou `Aviao` com base na necessidade.
+* **Padrão Prototype** (`/pattern.prototype`): Exemplo do padrão Prototype para clonar objetos de "Funcionários", permitindo a criação de novos objetos com base em um modelo existente de forma eficiente.
+* **Sistema de Logística Combinado** (`/Sistema de Logística Flexível`): Um projeto mais complexo que combina múltiplos padrões, incluindo **Abstract Factory** (`TransporteFactory`) e **Strategy** (`EstrategiaEntrega`), para gerenciar um sistema de logística flexível.
 
 ### 2. API RESTful de Biblioteca (Node.js)
 
-* **API CRUD Biblioteca** (`/API-CRUD-Biblioteca`): Uma API RESTful completa construída com **Node.js, Express e TypeScript**. Ela utiliza **TypeORM** para gerenciar um sistema de biblioteca, com rotas para criar, ler, atualizar e deletar Alunos, Livros e Empréstimos.
+* **API CRUD Biblioteca** (`/CRUD`): Uma API RESTful completa construída com **Node.js, Express e TypeScript**. Ela utiliza **TypeORM** para gerenciar um sistema de biblioteca, com rotas para criar, ler, atualizar e deletar Alunos, Livros e Empréstimos.
 
 ### 3. Scripts Python
 
-* **Disparo de Mensagem** (`/Scripts-Python`): Um script utilitário em Python para automatizar o envio de mensagens.
+* **Disparo de Mensagem** (`/Disparar mensagem.py`): Um script utilitário em Python para automatizar o envio de mensagens.
